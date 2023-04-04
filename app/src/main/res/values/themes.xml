@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.YogaDemoApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+
+
+
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryVariant">@color/colorPrimary</item>-->
+<!--        <item name="colorOnPrimary">@color/colorPrimary</item>-->
+
+<!--        <item name="textColorPrimary">@color/primary_text_dark</item>-->
+<!--        <item name="textColorPrimaryInverse">@color/primary_text_light</item>-->
+<!--        <item name="textColorPrimaryActivated">@color/primary_text_dark</item>-->
+<!--        <item name="textColorPrimaryDisableOnly">@color/primary_text_dark_disable_only</item>-->
+<!--        <item name="textColorPrimaryInverseDisableOnly">@color/primary_text_light_disable_only</item>-->
+<!--        <item name="textColorPrimaryInverseNoDisable">@color/primary_text_light_nodisable</item>-->
+<!--        <item name="textColorPrimaryNoDisable">@color/primary_text_dark_nodisable</item>-->
+
+
+        <!-- Secondary brand color. -->
+
+
+<!--        <item name="colorSecondary">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorOnSecondary">@color/colorPrimaryDark</item>-->
+
+
+<!--        <item name="textColorSecondary">@color/secondary_text_dark</item>-->
+<!--        <item name="textColorSecondaryInverse">@color/secondary_text_light</item>-->
+<!--        <item name="textColorSecondaryActivated">@color/secondary_text_dark</item>-->
+<!--        <item name="textColorSecondaryNoDisable">@color/secondary_text_dark_nodisable</item>-->
+<!--        <item name="textColorSecondaryInverseNoDisable">@color/secondary_text_light_nodisable</item>-->
+
+        <!-- Status bar color. -->
+<!--        <item name="android:statusBarColor" tools:targetApi="21">?attr/colorPrimaryVariant</item>-->
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
