@@ -38,7 +38,7 @@ public class ChestActivity extends AppCompatActivity {
             if(view.getId() == newArray[i]){
                 int value = i+1;
                 Log.i("FIRST", String.valueOf(value));
-                Intent intent = new Intent(ChestActivity.this, ThirdActivity.class);
+                Intent intent = new Intent(ChestActivity.this, ChestActivity2.class);
                 intent.putExtra("value", String.valueOf(value));
                 startActivity(intent);
             }

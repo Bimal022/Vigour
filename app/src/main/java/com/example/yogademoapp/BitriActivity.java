@@ -34,7 +34,7 @@ public class BitriActivity extends AppCompatActivity {
             if(view.getId() == newArray[i]){
                 int value = i+1;
                 Log.i("FIRST", String.valueOf(value));
-                Intent intent = new Intent(BitriActivity.this, ThirdActivity.class);
+                Intent intent = new Intent(BitriActivity.this, BitriActivity2.class);
                 intent.putExtra("value", String.valueOf(value));
                 startActivity(intent);
             }

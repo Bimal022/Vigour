@@ -12,6 +12,21 @@
         android:theme="@style/Theme.YogaDemoApp"
         tools:targetApi="31">
         <activity
+            android:name=".LegActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ShoulderActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".BitriActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".BackActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ChestActivity2"
+            android:exported="false" />
+        <activity
             android:name=".LegActivity"
             android:exported="false" />
         <activity

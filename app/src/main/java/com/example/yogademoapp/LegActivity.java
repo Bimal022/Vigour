@@ -34,7 +34,7 @@ public class LegActivity extends AppCompatActivity {
             if(view.getId() == newArray[i]){
                 int value = i+1;
                 Log.i("FIRST", String.valueOf(value));
-                Intent intent = new Intent(LegActivity.this, ThirdActivity.class);
+                Intent intent = new Intent(LegActivity.this, LegActivity2.class);
                 intent.putExtra("value", String.valueOf(value));
                 startActivity(intent);
             }
