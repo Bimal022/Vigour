@@ -75,7 +75,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Mountain Climber"
+                                android:text="Aditya Teotua"
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
