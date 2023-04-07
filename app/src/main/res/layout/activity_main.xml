@@ -44,7 +44,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:onClick="beforeage18"
+                    android:onClick="gymexersice"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
                     android:layout_gravity="center"
@@ -118,7 +118,7 @@
                 </LinearLayout>
 
                 <Button
-                    android:id="@+id/startyoga1"
+                    android:id="@+id/startgym"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10.0dp"
@@ -140,11 +140,12 @@
                 android:orientation="vertical">
 
                 <LinearLayout
+                    android:onClick="yogaexersice"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:onClick="afterage18"
+
                     android:orientation="horizontal"
 
 
@@ -214,7 +215,7 @@
                 </LinearLayout>
 
                 <Button
-                    android:id="@+id/startyoga2"
+                    android:id="@+id/startyoga"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10.0dp"
@@ -237,7 +238,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:onClick="beforeage18"
+                    android:onClick="meditation"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
                     android:layout_gravity="center"
@@ -311,7 +312,7 @@
                 </LinearLayout>
 
                 <Button
-                    android:id="@+id/startyoga1"
+                    android:id="@+id/startmeditation"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10.0dp"
