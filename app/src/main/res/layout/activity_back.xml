@@ -46,6 +46,7 @@
                 <!--            //Exercises k liye-->
 
                 <!--                //PEHLA EXERCISE-->
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -56,7 +57,7 @@
 
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/pose1"
+                        android:id="@+id/pose5"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -75,7 +76,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Aditya Teotua"
+                                android:text="Behind Neck Pulldown"
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
@@ -110,7 +111,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/back_1"
+                                android:src="@drawable/back_5"
 
                                 />
 
@@ -143,7 +144,6 @@
 
                 </LinearLayout>
 
-
                 <!--                /DUSRA EXERSCISE-->
                 <LinearLayout
                     android:layout_width="fill_parent"
@@ -174,7 +174,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Mountain Climber"
+                                android:text="Dumbbell Bent Over Row (Single Arm)"
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
@@ -273,7 +273,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Mountain Climber"
+                                android:text="Seated Row"
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
@@ -372,7 +372,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Mountain Climber"
+                                android:text="T-Bar Rows"
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
@@ -441,6 +441,10 @@
                 </LinearLayout>
 
                 <!--                /PANCHWA EXERSCISE-->
+
+
+
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -451,7 +455,7 @@
 
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/pose5"
+                        android:id="@+id/pose1"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -470,7 +474,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Mountain Climber"
+                                android:text="Pull Up"
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
@@ -505,7 +509,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/back_5"
+                                android:src="@drawable/back_1"
 
                                 />
 
