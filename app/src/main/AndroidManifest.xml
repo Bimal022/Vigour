@@ -12,13 +12,19 @@
         android:theme="@style/Theme.YogaDemoApp"
         tools:targetApi="31">
         <activity
+            android:name=".TriActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".TriActivity"
+            android:exported="false" />
+        <activity
             android:name=".LegActivity2"
             android:exported="false" />
         <activity
             android:name=".ShoulderActivity2"
             android:exported="false" />
         <activity
-            android:name=".BitriActivity2"
+            android:name=".BiActivity2"
             android:exported="false" />
         <activity
             android:name=".BackActivity2"
@@ -33,7 +39,7 @@
             android:name=".ShoulderActivity"
             android:exported="false" />
         <activity
-            android:name=".BitriActivity"
+            android:name=".BiActivity"
             android:exported="false" />
         <activity
             android:name=".BackActivity"

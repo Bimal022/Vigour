@@ -8,14 +8,14 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-public class BitriActivity extends AppCompatActivity {
+public class TriActivity extends AppCompatActivity {
 
     int[] newArray;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bitri);
+        setContentView(R.layout.activity_tri);
 
         Toolbar toolbar = findViewById(R.id.toolBar);
         setSupportActionBar(toolbar);
@@ -34,7 +34,7 @@ public class BitriActivity extends AppCompatActivity {
             if(view.getId() == newArray[i]){
                 int value = i+1;
                 Log.i("FIRST", String.valueOf(value));
-                Intent intent = new Intent(BitriActivity.this, BitriActivity2.class);
+                Intent intent = new Intent(TriActivity.this, TriActivity2.class);
                 intent.putExtra("value", String.valueOf(value));
                 startActivity(intent);
             }

@@ -5,7 +5,6 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 
 public class GymActivity extends AppCompatActivity {
@@ -19,7 +18,7 @@ public class GymActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         newArray = new int[]{
-                R.id.chest, R.id.back, R.id.shoulder, R.id.bitri, R.id.leg,
+                R.id.chest, R.id.back, R.id.shoulder, R.id.biceps, R.id.triceps, R.id.leg,
         };
     }
 
@@ -42,10 +41,18 @@ public class GymActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void bitri(View view) {
+    public void biceps(View view) {
 //bracket mai source aur destination likhte hai file
 //ka kahan se kahan jaa rahe click krne pe
-        Intent intent = new Intent(GymActivity.this, BitriActivity.class);
+        Intent intent = new Intent(GymActivity.this, BiActivity.class);
+        startActivity(intent);
+
+    }
+
+    public void triceps(View view) {
+//bracket mai source aur destination likhte hai file
+//ka kahan se kahan jaa rahe click krne pe
+        Intent intent = new Intent(GymActivity.this, TriActivity.class);
         startActivity(intent);
 
     }

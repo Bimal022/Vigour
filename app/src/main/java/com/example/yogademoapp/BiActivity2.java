@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class BitriActivity2 extends AppCompatActivity {
+public class BiActivity2 extends AppCompatActivity {
 
     String buttonvalue;
     Button startBtn;
@@ -25,7 +25,7 @@ public class BitriActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bitri2);
+        setContentView(R.layout.activity_bi2);
 
         Intent intent = getIntent();
         buttonvalue = intent.getStringExtra("value");
@@ -128,14 +128,14 @@ public class BitriActivity2 extends AppCompatActivity {
             public void onFinish() {
                 int newvalue = Integer.valueOf(buttonvalue)+1;
                 if(newvalue<=7){
-                    Intent intent = new Intent(BitriActivity2.this, ThirdActivity.class);
+                    Intent intent = new Intent(BiActivity2.this, ThirdActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     intent.putExtra("value", String.valueOf(newvalue));
                     startActivity(intent);
                 }
                 else{
                     newvalue = 1;
-                    Intent intent = new Intent(BitriActivity2.this, ThirdActivity.class);
+                    Intent intent = new Intent(BiActivity2.this, ThirdActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     intent.putExtra("value", String.valueOf(newvalue));
                     startActivity(intent);
