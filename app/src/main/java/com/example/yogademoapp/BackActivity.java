@@ -21,9 +21,8 @@ public class BackActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         newArray = new int[]{
-                R.id.pose1, R.id.pose2, R.id.pose3, R.id.pose4, R.id.pose5,
-                R.id.pose6, R.id.pose7, R.id.pose8, R.id.pose9, R.id.pose10,
-                R.id.pose11, R.id.pose12, R.id.pose13, R.id.pose14, R.id.pose15,
+                R.id.back1, R.id.back2, R.id.back3, R.id.back4, R.id.back5,
+
         };
     }
 
@@ -34,7 +33,7 @@ public class BackActivity extends AppCompatActivity {
             if(view.getId() == newArray[i]){
                 int value = i+1;
                 Log.i("FIRST", String.valueOf(value));
-                Intent intent = new Intent(BackActivity.this, ThirdActivity.class);
+                Intent intent = new Intent(BackActivity.this, BackActivity2.class);
                 intent.putExtra("value", String.valueOf(value));
                 startActivity(intent);
             }

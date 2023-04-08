@@ -56,7 +56,7 @@
 
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/pose1"
+                        android:id="@+id/leg1"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -155,7 +155,7 @@
 
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/pose2"
+                        android:id="@+id/leg2"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -246,12 +246,6 @@
 
                 <!--                /TEESRA EXERSCISE-->
 
-
-
-                <!--                /CHATUHA EXERSCISE-->
-
-
-                <!--                /PANCHWA EXERSCISE-->
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -262,7 +256,7 @@
 
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/pose3"
+                        android:id="@+id/leg3"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -352,7 +346,7 @@
 
 
 
-<!--                //6 exerscise-->
+                <!--                /CHATUHA EXERSCISE-->
 
                 <LinearLayout
                     android:layout_width="fill_parent"
@@ -364,7 +358,7 @@
 
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/pose3"
+                        android:id="@+id/leg4"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -450,6 +444,10 @@
                         />
 
                 </LinearLayout>
+
+
+
+<!--                                //5th Exerscise-->
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="100.0dp"
@@ -460,7 +458,7 @@
 
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/pose3"
+                        android:id="@+id/leg5"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"

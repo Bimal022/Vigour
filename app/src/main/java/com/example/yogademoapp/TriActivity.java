@@ -15,15 +15,11 @@ public class TriActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tri);
-
-        Toolbar toolbar = findViewById(R.id.toolBar);
+        setContentView(R.layout.activity_tri);        Toolbar toolbar = findViewById(R.id.toolBar);
         setSupportActionBar(toolbar);
 
         newArray = new int[]{
-                R.id.pose1, R.id.pose2, R.id.pose3, R.id.pose4, R.id.pose5,
-                R.id.pose6, R.id.pose7, R.id.pose8, R.id.pose9, R.id.pose10,
-                R.id.pose11, R.id.pose12, R.id.pose13, R.id.pose14, R.id.pose15,
+                R.id.back1, R.id.back2, R.id.back3, R.id.back4, R.id.back5,
         };
     }
 
