@@ -35,52 +35,19 @@ public class BiActivity2 extends AppCompatActivity {
         switch (intvalue){
 
             case 1:
-                setContentView(R.layout.behind_neck_pulldown);
+                setContentView(R.layout.back_1);
                 break;
             case 2:
-                setContentView(R.layout.pose2);
+                setContentView(R.layout.back_2);
                 break;
 
             case 3:
-                setContentView(R.layout.pose3);
+                setContentView(R.layout.back_3);
                 break;
             case 4:
-                setContentView(R.layout.pose4);
-                break;
-            case 5:
-                setContentView(R.layout.pose5);
-                break;
-            case 6:
-                setContentView(R.layout.pose6);
-                break;
-            case 7:
-                setContentView(R.layout.pose7);
-                break;
-            case 8:
-                setContentView(R.layout.pose8);
-                break;
-            case 9:
-                setContentView(R.layout.pose9);
-                break;
-            case 10:
-                setContentView(R.layout.pose10);
-                break;
-            case 11:
-                setContentView(R.layout.pose11);
-                break;
-            case 12:
-                setContentView(R.layout.pose12);
-                break;
-            case 13:
-                setContentView(R.layout.pose13);
-                break;
-            case 14:
-                setContentView(R.layout.pose14);
+                setContentView(R.layout.back_4);
                 break;
 
-            case 15:
-                setContentView(R.layout.pose15);
-                break;
 
         }
         startBtn = findViewById(R.id.startbutton);
@@ -128,14 +95,14 @@ public class BiActivity2 extends AppCompatActivity {
             public void onFinish() {
                 int newvalue = Integer.valueOf(buttonvalue)+1;
                 if(newvalue<=7){
-                    Intent intent = new Intent(BiActivity2.this, ThirdActivity.class);
+                    Intent intent = new Intent(BiActivity2.this, BiActivity2.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     intent.putExtra("value", String.valueOf(newvalue));
                     startActivity(intent);
                 }
                 else{
                     newvalue = 1;
-                    Intent intent = new Intent(BiActivity2.this, ThirdActivity.class);
+                    Intent intent = new Intent(BiActivity2.this, BiActivity2.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     intent.putExtra("value", String.valueOf(newvalue));
                     startActivity(intent);

@@ -97,14 +97,14 @@ public class BackActivity2 extends AppCompatActivity {
             public void onFinish() {
                 int newvalue = Integer.valueOf(buttonvalue)+1;
                 if(newvalue<=7){
-                    Intent intent = new Intent(BackActivity2.this, ThirdActivity.class);
+                    Intent intent = new Intent(BackActivity2.this, BackActivity2.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     intent.putExtra("value", String.valueOf(newvalue));
                     startActivity(intent);
                 }
                 else{
                     newvalue = 1;
-                    Intent intent = new Intent(BackActivity2.this, ThirdActivity.class);
+                    Intent intent = new Intent(BackActivity2.this, BackActivity2.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     intent.putExtra("value", String.valueOf(newvalue));
                     startActivity(intent);
