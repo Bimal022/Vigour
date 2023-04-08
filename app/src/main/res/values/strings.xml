@@ -29,23 +29,26 @@
                              <p><b>Execution</b>:- Do a pull up by pulling your chin towards the bar. Then come back slowly to the starting position. Your segments’ length, your strength, and your shoulders’ mobility will determine how high you can pull yourself up. </p></string>
 
 
-    <string name="pose6">    Step 1:- Lie on your back on an exercise mat. With your arms straight at your sides, bend your knees and place your feet flat on the floor between18 and 24 inches apart.\n\n
-                             Step 2:- Breathing out, crunch your ab slightly upward and sideways to the right a couple of inches until your right hand touches your right heel.\n\n
-                             Step 3:- Hold brief|y and then return to your starting position while inhaling. Repeat on the left side. </string>
-    <string name="pose7">    Step 1:- You can perform straight-leg crunches by lying face up on the floor with your legs straight and then moving your upper body as you would for a standard bent-knee crunch.\n\n
-                             Step 2:- Alternatively, lie on your back, raise your legs so they are perpendicular to the floor and then perform the standard crunching motion with your torso.
-                             </string>
-    <string name="pose8">    Step 1:- Lie down on the floor placing your feet either under something that Will not move or by having a partner hold them. Your legs should be bent at the kneesPlace your hands behind your head and lock them together by claspihg your fingers. This is the starting position.\n\n
-                             Step 2:- Elevate your upper body so that it creates an imaginary V-shape with your thighs. Breathe out when performing this part of the exercise.\n\n
-                             Step 3:- Once you feel the contraction for a second, lower your upper body back down to the starting position while inhahng. \n\n
-                             Step 4:- Repeat for the recommended amount of repetitions.
-                            </string>
-    <string name="pose9">    Step 1:- Lying on the back,lift stright leg,extend opposite hand to touch toe. \n\n
-                             Step 2:- Please,return,alternate inhale down,exhale up at toe touch.
-                            </string>
-    <string name="pose10">    Step 1:- High Plank position then slowly rotate your torso to the side raising your arm till it gets ihlihe with the other one. \n\n
-                             Step 2:- Then return to the initial position.
-                            </string>
+    <string name="leg1">     <p><b>Equipment required</b> -Dumbbells, stepper</p>
+                             <p><b>Main muscles</b>:-Buttocks and thigh muscles\n\n</p>
+                             <p><b>Starting position</b>:- Standing with legs hip-width apart, one dumbbell in each hand. \n\n</p>
+                             <p><b>Execution</b>:- Keeping the bust straight, take a step forward and slowly descend until the forward thigh is parallel to the ground. Then return to the original position. Once you have completed your series, do the same with the other leg. </p></string>
+    <string name="leg2">     <p><b>Equipment required</b> -Barbell</p>
+                             <p><b>Main muscles</b>:-Thigh and buttock muscles \n\n</p>
+                             <p><b>Starting position</b>:- Standing with the bar resting on your upper chest and deltoids. Grasp the bar with your hands for a good support. Keep your head straight \n\n</p>
+                             <p><b>Execution</b>:-Bend your knees and hips as if you were sitting down. While keeping your back straight, let your buttocks go backwards, which will tilt your chest slightly forwards to make the movement as natural as possible. The moment your thighs are parallel to the ground, move upwards, doing the movement in the opposite direction. Given the complexity of this movement, ask a trainer in your gym to show you how to perform it correctly the first time.  </p></string>
+    <string name="leg3">     <p><b>Equipment required</b> -Mat</p>
+                             <p><b>Main muscles</b>:-Core Muscles \n\n</p>
+                             <p><b>Secondary muscles</b>:-Glute Muscles\n\n</p>
+                             <p><b>Starting position</b>:- Get down onto the mat. Position yourself on your hands and knees. Place your hands directly under your shoulders and your knees right under your hips. \n\n</p>
+                             <p><b>Execution</b>:-While maintaining a neutral spine and bracing your core, extend one arm straight out in front of you and extend the opposite leg backwards until they’re parallel with the ground and you’ve created a straight line with your body. Keep your hips parallel to the ground. Hold this position briefly and then lower back to the starting position. Repeat with the opposite side.  </p></string>
+    <string name="leg4">     <p><b>Equipment required</b> -Lever Stepper Machine</p>
+                             <p><b>Main muscles</b>:-Buttocks and thigh muscles \n\n</p>
+        <p><b>Secondary muscles</b>:-Glute Muscles \n\n</p></string>
+    <string name="leg5">     <p><b>Equipment required</b> -Seated Calf Raise Machine</p>
+                             <p><b>Main muscles</b>:- Calves\n\n</p>
+                             <p><b>Starting position</b>:- Sitting on the machine with the front of the feet on the wedge and the lower thighs under the padded parts \n\n</p>
+                             <p><b>Execution</b>:- While contracting the calves, raise your heels as high as possible. Stay in the high position for a moment, feeling the contraction well. Then slowly lower your heels by stretching your calves. </p></string>
     <string name="pose11">    Step 1:- Lie on the floor with elbows directly beneath your shoulders and legs fully extended.\n\n
                              Step 2:- Raise your torso into the air until it makes a straight line from your shoulders to your ankles. Tighten your stomach, squeeze your butt.
                             </string>
