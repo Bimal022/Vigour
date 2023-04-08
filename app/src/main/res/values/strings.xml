@@ -2,24 +2,31 @@
     <string name="app_name">Yoga Demo app</string>
 
 
-    <string name="pose1">    Step 1:- Start in the push-up position with your arms completely straight and directly beneath your shoulders.\n\n
-                             Step 2:- Your body should form a straight line from your shoulders to your ankles. \n\n
-                             Step 3:- Squeeze your abs, lift one foot off the floor and bring your knee up towards your chest while keeping your body in as straight of a line as possible. \n\n
-                             Step 4:- Return to the starting position and repeat the movement with your opposite leg.. </string>
-    <string name="pose2">    Step 1:- Lie flat on your mat with knees bent and feet on the mat. Hands at the base ofyour head and elbows pointed out. Using your abdominals bring your head and shoulders off the mat and come up into a crunch, then lower with control. </string>
-    <string name="pose3">    Step 1:- This movement is performed with a bench and a foot stool.\n\n
-                             Step 2:- Place a bench behind yourself and rest on it with your hands. Place your legs straight out in front of you. You may also place them at an elevated level as shown above.\n\n
-                             Step 3:- Begin with arms in a fully. Slowly bend at your elbows keeping the rest of your body straight. Be sure to keep your elbows back and close together.\n\n
-                             Step 4:- Dip down until your arms form a 90 degree angle and you feel a stretch in the triceps.\n\n
-                             Step 5:- Slowly extend your arms raising your body back up. Pause and contract your triceps muscles at the top. Pause and repeat the movement.</string>
-    <string name="pose4">    Step 1:- Lie flat on the floor with your lower back pressed to the ground (pull your navel in to also target your deep abs). \n\n
-                             Step 2:- Put your hands behind your head, then bring your knees in towards your Chest and lift your shoulder blades off the ground, but be sure not to pull on your neck.\n\n
-                             Step 3:-Straighten your right leg out to about a 4S-degree angle to the ground while turning your upper body to the left, bringing your right elbow towards the left knee.\n\n
-                             Step 4:- Make sure your rib cage is moving and hotjust your elbows. Now switch sides and do the same motion on the other side to complete onerep. </string>
-    <string name="pose5">   Step 1:- Lay down with your hands to your sides for support. \n\n
-                             Step 2:- Raise your legs so they are off the ground, keeping the abdominals tight.\n\n
-                             Step 3:- Slowly raise your legs 90 degrees, contracting the abdominal muscles. Slowly return to starting position. Do not touch the floor with your feet.\n\n
-                            </string>
+    <string name="back1">    <p><b>Equipment required</b> -Lat Pulldown Machine, Lat Bar</p>
+                             <p><b>Main muscles</b>:- Back\n\n</p>
+                             <p><b>Secondary muscles</b>:- Biceps\n\n</p>
+                             <p><b>Starting position</b>:- Sitting, thighs under the padded parts, the bar grasped in pronation, hands more apart than shoulder width. Keep elbows pointed outwards and back straight. \n\n</p>
+                             <p><b>Execution</b>:- Pull the bar at the back of the neck. Keep the contraction for a moment before slowly returning to the initial position. During the movement, do not let your elbows come forward. </p></string>
+    <string name="back2">    <p><b>Equipment required</b> -Dumbbell, Bench</p>
+                             <p><b>Main muscles</b>:- Back\n\n</p>
+                             <p><b>Secondary muscles</b>:- Hind Deltoids, biceps\n\n</p>
+                             <p><b>Starting position</b>:- Place your left knee and left hand on the bench with your chest parallel to the floor. Keep your right foot on the ground and grasp the dumbbell still on the ground in your right hand in a neutral grip. \n\n</p>
+                             <p><b>Execution</b>:-Keeping your arm close to your body, lift the dumbbell as high as possible by raising your elbow and keeping your forearm perpendicular to the ground. Once your series is over, do the same with the other arm. </p></string>
+    <string name="back3">    <p><b>Equipment required</b> -Rowing Machine</p>
+                             <p><b>Main muscles</b>:- Back\n\n</p>
+                             <p><b>Secondary muscles</b>:- Hind deltoids, biceps\n\n</p>
+                             <p><b>Starting position</b>:- Sitting on the machine's bench with your feet on the wedge. Grasp the double handle attached to the cable with both hands. Keep back straight and knees slightly bent. \n\n</p>
+                             <p><b>Execution</b>:- Pull the load towards your abdomen. Tighten your back at the end of the movement by bringing your elbows as far back as possible. Then slowly return to the initial position. </p></string>
+    <string name="back4">    <p><b>Equipment required</b> -T-Bar machine, plates</p>
+                             <p><b>Main muscles</b>:- Back\n\n</p>
+                             <p><b>Secondary muscles</b>:- Rear deltoids, biceps\n\n</p>
+                             <p><b>Starting position</b>:- Use a T-Bar machine (or place a barbell in the corner of a room). Stand with feet either side of the bar, bend your knees, and bow forward so that your chest is directly over the plate on the barbell. Grab the handle in both hands. \n\n</p>
+                             <p><b>Execution</b>:-Keeping your posture still, pull the handles so that the plate rises towards your chest. Pause just before it touches, and then slowly lower it back down. </p></string>
+    <string name="back5">    <p><b>Equipment required</b> -Pull bar</p>
+                             <p><b>Main muscles</b>:- Back\n\n</p>
+                             <p><b>Secondary muscles</b>:- Biceps\n\n</p>
+                             <p><b>Starting position</b>:- Grasp the pull bar using a pronated grip, head slightly up, hands wider than shoulders width apart, and elbows slightly bent. \n\n</p>
+                             <p><b>Execution</b>:- Do a pull up by pulling your chin towards the bar. Then come back slowly to the starting position. Your segments’ length, your strength, and your shoulders’ mobility will determine how high you can pull yourself up. </p></string>
 
 
     <string name="pose6">    Step 1:- Lie on your back on an exercise mat. With your arms straight at your sides, bend your knees and place your feet flat on the floor between18 and 24 inches apart.\n\n

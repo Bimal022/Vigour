@@ -35,7 +35,7 @@ public class ChestActivity2 extends AppCompatActivity {
         switch (intvalue){
 
             case 1:
-                setContentView(R.layout.pose1);
+                setContentView(R.layout.behind_neck_pulldown);
                 break;
             case 2:
                 setContentView(R.layout.pose2);
