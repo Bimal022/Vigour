@@ -175,7 +175,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Mountain Climber"
+                                android:text="EZ Barbell Curl"
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
@@ -210,7 +210,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/bi_1"
+                                android:src="@drawable/bi_2"
 
                                 />
 

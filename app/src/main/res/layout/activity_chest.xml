@@ -84,7 +84,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Mountain Climber"
+                                android:text="Dumbbell Bench Press"
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
@@ -112,7 +112,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_1"
+                                android:src="@drawable/chest_2"
 
                                 />
 
@@ -176,7 +176,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Mountain Climber"
+                                android:text="Dumbbell Fly"
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
@@ -211,7 +211,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_2"
+                                android:src="@drawable/chest_1"
 
                                 />
 
@@ -275,7 +275,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Mountain Climber"
+                                android:text="Close grip chest press"
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
@@ -310,7 +310,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_3"
+                                android:src="@drawable/chest_4"
 
                                 />
 
@@ -374,7 +374,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="monospace"
-                                android:text="Mountain Climber"
+                                android:text="Single hand pushup"
                                 android:textAllCaps="true"
                                 android:textColor="#ff000000"
                                 android:textSize="15.0dp"
@@ -409,7 +409,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_4"
+                                android:src="@drawable/chest_3"
 
                                 />
 
