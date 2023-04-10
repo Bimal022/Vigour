@@ -29,7 +29,7 @@
                 android:layout_height="170dp"
                 android:layout_marginLeft="105dp"
                 android:text="01:00"
-                android:textSize="28sp"
+                android:textSize="28dp"
                 android:padding="15dp"
                 android:background="@drawable/button_bg_round"
                 />
