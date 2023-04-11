@@ -25,7 +25,7 @@ public class ChestActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         newArray = new int[]{
-                R.id.back1, R.id.back2, R.id.back3, R.id.back4, R.id.back5,
+                R.id.chest1, R.id.chest2, R.id.chest3, R.id.chest4,
         };
     }
 

@@ -35,20 +35,17 @@ public class TriActivity2 extends AppCompatActivity {
         switch (intvalue){
 
             case 1:
-                setContentView(R.layout.back_1);
+                setContentView(R.layout.tri_1);
                 break;
             case 2:
-                setContentView(R.layout.back_2);
+                setContentView(R.layout.tri_2);
                 break;
 
             case 3:
-                setContentView(R.layout.back_3);
+                setContentView(R.layout.tri_3);
                 break;
             case 4:
-                setContentView(R.layout.back_4);
-                break;
-            case 5:
-                setContentView(R.layout.back_5);
+                setContentView(R.layout.tri_4);
                 break;
 
         }

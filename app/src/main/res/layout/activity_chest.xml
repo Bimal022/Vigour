@@ -56,7 +56,7 @@
 
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/pose1"
+                        android:id="@+id/chest1"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -157,7 +157,7 @@
 
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/pose2"
+                        android:id="@+id/chest2"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -257,7 +257,7 @@
 
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/pose3"
+                        android:id="@+id/chest3"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -356,7 +356,7 @@
 
                     <LinearLayout
                         android:onClick="Imagebuttonclicked"
-                        android:id="@+id/pose3"
+                        android:id="@+id/chest4"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"

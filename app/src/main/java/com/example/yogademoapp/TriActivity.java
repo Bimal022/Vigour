@@ -19,7 +19,7 @@ public class TriActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         newArray = new int[]{
-                R.id.back1, R.id.back2, R.id.back3, R.id.back4, R.id.back5,
+                R.id.tri1, R.id.tri2, R.id.tri3, R.id.tri4,
         };
     }
 
