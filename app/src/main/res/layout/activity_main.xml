@@ -75,7 +75,7 @@
                             android:fontFamily="serif"
                             android:padding="5.0dp"
                             android:text="Gym Exersises"
-                            android:textSize="20.0dp"
+                            android:textSize="30.0sp"
                             android:textStyle="bold"/>
 
                         <TextView
@@ -172,7 +172,7 @@
                             android:fontFamily="serif"
                             android:padding="5.0dp"
                             android:text="Yoga Aasans"
-                            android:textSize="20.0dp"
+                            android:textSize="30.0sp"
                             android:textStyle="bold" />
 
                         <TextView
@@ -269,7 +269,7 @@
                             android:fontFamily="serif"
                             android:padding="5.0dp"
                             android:text="Meditation"
-                            android:textSize="20.0dp"
+                            android:textSize="30.0sp"
                             android:textStyle="bold"/>
 
                         <TextView

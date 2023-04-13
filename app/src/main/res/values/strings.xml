@@ -12,11 +12,7 @@
                              <p><b>Secondary muscles</b>:- Hind Deltoids, biceps\n\n</p>
                              <p><b>Starting position</b>:- Place your left knee and left hand on the bench with your chest parallel to the floor. Keep your right foot on the ground and grasp the dumbbell still on the ground in your right hand in a neutral grip. \n\n</p>
                              <p><b>Execution</b>:-Keeping your arm close to your body, lift the dumbbell as high as possible by raising your elbow and keeping your forearm perpendicular to the ground. Once your series is over, do the same with the other arm. </p></string>
-    <string name="back3">     <p><b>Equipment required</b> -seated rowing machine</p>
-                             <p><b>Main muscles</b>:- Back\n\n</p>
-                             <p><b>Secondary muscles</b>:- Hind Deltoids, biceps\n\n</p>
-                             <p><b>Starting position</b>:-Sitting on the machine's bench with your feet on the wedge. Grasp the double handle attached to the cable with both hands. Keep back straight and knees slightly bent. \n\n</p>
-                             <p><b>Execution</b>:-Pull the load towards your abdomen. Tighten your back at the end of the movement by bringing your elbows as far back as possible. Then slowly return to the initial position. </p></string>
+    <string name="back3">    </string>
     <string name="back4">    <p><b>Equipment required</b> -T-Bar machine, plates</p>
                              <p><b>Main muscles</b>:- Back\n\n</p>
                              <p><b>Secondary muscles</b>:- Rear deltoids, biceps\n\n</p>
@@ -83,22 +79,27 @@ Keep your shoulders flat against the bench. </p></string>
                              <p><b>Secondary muscles</b>:-Deltoids, Triceps, Biceps\n\n</p>
                              <p><b>Starting position</b>:-  Face down, one arm outstretched,  resting on the floor and aligned with your pectoral muscles. Legs stretched and face pointed towards the ground\n\n</p>
                              <p><b>Execution</b>:- Slowly bend your arm, letting your chest come closer to the ground, until your elbows form a 90 degrees angle. Then return to the starting position by pushing on your hand and then repeat the same with other hand. </p></string>
-    <string name="tricep1">  <p><b>Equipment required</b> -Cable Machine, Pressdown Bar</p>
-        <p><b>Main muscles</b>:-Triceps\n\n</p>
+    <string name="tricep1">  <p><b>Equipment required</b> -Cable Machine, Press-down Bar</p>
+                             <p><b>Main muscles</b>:-Triceps\n\n</p>
                              <p><b>Starting position</b>:-Standing facing the pulley, grasping the bar with a pronation grip, hands shoulder width apart. \n\n</p>
                              <p><b>Execution</b>:- Carry out an extension of the forearms until your arms are fully extended. In this position, contract your triceps for a moment and then slowly return to the initial position. Keep your elbows close to your body during the whole movement. </p></string>
     <string name="tricep2">  <p><b>Equipment required</b> -Bench</p>
                              <p><b>Main muscles</b>:-Tricep\n\n</p>
-        <p><b>Secondary muscles</b>:-Chest\n\n</p></string>
-                             <p><b>Starting position</b>:- Feet are placed on a raised surface with your hands on a lower surface or the ground.\n\n</p>
-    <string name="tricep3">  <p><b>Equipment required</b> -Dumbbell</p>
+                                <p><b>Secondary muscles</b>:-Chest\n\n</p></string>
+
+    <string name="tricep3"> <p><b>Starting position</b>:- Feet are placed on a raised surface with your hands on a lower surface or the ground.\n\n</p>
+                            <p><b>Equipment required</b> -Dumbbell</p>
                              <p><b>Main muscles</b>:-Triceps\n\n</p>
                              <p><b>Starting position</b>:-Place your left knee and left hand on a bench, with your chest parallel to the floor. Keep your right foot on the ground and grasp the dumbbell in your right hand. Keeping it close to your body, raise the top of your right arm until it is parallel to the ground. \n\n</p>
                              <p><b>Execution</b>:- Perform an extension of the right arm. When it is fully extended, contract your triceps for a moment before returning to the initial position. Once you have completed your series, do the same with the other arm. </p></string>
+
+
     <string name="tricep4">  <p><b>Equipment required</b> -Bench</p>
                              <p><b>Main muscles</b>:-Triceps, front deltoids\n\n</p>
                              <p><b>Starting position</b>:-Set up for the bench dip by placing two flat benches parallel to one another to around your legs’ length. Keeping your back straight and your arms outstretched, place your hands on the edge of one bench at about shoulder’s width and put your heels on the edge of the other bench, legs and buttocks swinging in the air (see picture). \n\n</p>
                              <p><b>Execution</b>:- While keeping your elbows tucked in, slowly flex them until they are at a 90° angle. Then slowly come back to the starting position and squeeze your triceps at the top. Keep your back straight throughout the movement. Repeat for desired reps. </p></string>
+
+
     <string name="biceps1">  <p><b>Equipment required</b> -</p>
                              <p><b>Main muscles</b>:-\n\n</p>
                              <p><b>Secondary muscles</b>:-\n\n</p>
@@ -122,7 +123,7 @@ Keep your shoulders flat against the bench. </p></string>
                              <p><b>Secondary muscles</b>:-Triceps\n\n</p>
                              <p><b>Starting position</b>:-Sitting on a bench with your back well supported against the backrest. Hold the dumbbells in your hands (pronation grip) a little above shoulder height. Your elbows are on the outside and your forearms are perpendicular to the ground. \n\n</p>
                              <p><b>Execution</b>:- Push the dumbbells upwards. Until your arms are fully extended. Then return to the original position </p></string>
-    <string name="shoulder2">    <p><b>Equipment required</b> -Smith machine</p>
+    <string name="shoulder2"> <p><b>Equipment required</b> -Smith machine</p>
                              <p><b>Main muscles</b>:-Deltoids\n\n</p>
                              <p><b>Secondary muscles</b>:-Triceps\n\n</p>
                              <p><b>Starting position</b>:-Sitting on a bench with your back well supported against the backrest. Position the bench so that the bar drops just in front of your face. Grasp the bar with your hands in pronation. Your back is well supported against the backrest, your elbows are on the outside and your forearms are perpendicular to the ground. \n\n</p>
@@ -138,7 +139,7 @@ Keep your shoulders flat against the bench. </p></string>
                              <p><b>Starting position</b>:- Stand upright with a dumbbell resting on each shoulder and elbows pointed out in front of you. Feet should be shoulder width apart.\n\n</p>
                              <p><b>Execution</b>:- Bend knees slightly and then drive upwards, pushing the dumbbells straight up in the air and finishing with arms extended above your head. Pause, and then return to starting position. </p></string>
     <string name="shoulder5">    <p><b>Equipment required</b> -EZ Barbell</p>
-                             <p><b>Main muscles</b>:-Deltoids, trapezius muscles\n\n</p>
+                             <p><b>Main muscles</b>:-Deltoids, trapeziums muscles\n\n</p>
                              <p><b>Secondary muscles</b>:-Biceps and forearms\n\n</p>
                              <p><b>Starting position</b>:- Standing, holding the bar in front of you, pronation grip, hands shoulder-width apart.\n\n</p>
                              <p><b>Execution</b>:- Lift the bar vertically to chest height. Contract for a moment, then return to the starting position. During the whole movement, keep the bar close to the body and the elbows higher than the wrists. </p></string>
@@ -146,7 +147,7 @@ Keep your shoulders flat against the bench. </p></string>
                              <p><b>Main muscles</b>:-\n\n</p>
                              <p><b>Secondary muscles</b>:-\n\n</p>
                              <p><b>Starting position</b>:- \n\n</p>
-        <p><b>Execution</b>:-  </p></string>
+                                                <p><b>Execution</b>:-  </p></string>
 
 
 </resources>

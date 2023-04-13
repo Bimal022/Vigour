@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
 
-                Intent intent = new Intent(MainActivity.this, SecondActivity2.class);
+                Intent intent = new Intent(MainActivity.this, YogaActivity.class);
                 startActivity(intent);
             }
         });
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
 
-                Intent intent = new Intent(MainActivity.this, SecondActivity2.class);
+                Intent intent = new Intent(MainActivity.this, YogaActivity.class);
                 startActivity(intent);
             }
         });
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void yogaexersice(View view) {
 
-        Intent intent = new Intent(MainActivity.this, SecondActivity2.class);
+        Intent intent = new Intent(MainActivity.this, YogaActivity.class);
         startActivity(intent);
     }
 
