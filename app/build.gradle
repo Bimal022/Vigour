@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.yogademoapp'
+    namespace 'com.example.vigour'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.yogademoapp"
+        applicationId 'com.example.vigour'
         minSdk 19
         targetSdk 33
         versionCode 1

@@ -1,28 +1,31 @@
-package com.example.yogademoapp;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
+package com.example.vigour;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-public class BackActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
+import com.example.vigour.R;
+
+public class SecondActivity extends AppCompatActivity {
 
     int[] newArray;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_back);
+        setContentView(R.layout.activity_second);
 
         Toolbar toolbar = findViewById(R.id.toolBar);
         setSupportActionBar(toolbar);
 
         newArray = new int[]{
-                R.id.back1, R.id.back2, R.id.back3, R.id.back4, R.id.back5,
-
+                R.id.pose1, R.id.pose2, R.id.pose3, R.id.pose4, R.id.pose5,
+                R.id.pose6, R.id.pose7, R.id.pose8, R.id.pose9, R.id.pose10,
+                R.id.pose11, R.id.pose12, R.id.pose13, R.id.pose14, R.id.pose15,
         };
     }
 
@@ -33,7 +36,7 @@ public class BackActivity extends AppCompatActivity {
             if(view.getId() == newArray[i]){
                 int value = i+1;
                 Log.i("FIRST", String.valueOf(value));
-                Intent intent = new Intent(BackActivity.this, BackActivity2.class);
+                Intent intent = new Intent(SecondActivity.this, ThirdActivity.class);
                 intent.putExtra("value", String.valueOf(value));
                 startActivity(intent);
             }

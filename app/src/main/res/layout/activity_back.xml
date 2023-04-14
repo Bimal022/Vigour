@@ -6,7 +6,7 @@
     android:layout_height="fill_parent"
     android:background="#FFF"
     android:orientation="vertical"
-    tools:context="com.example.yogademoapp.activity_back">
+    tools:context="com.example.vigour.activity_back">
 
 
 
@@ -17,7 +17,7 @@
         android:background="@color/colorPrimaryDark"
         android:textAlignment="textEnd"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:title="Yoga App"
+        app:title="@string/app_name"
         app:titleTextColor="#FFF"
 
         />

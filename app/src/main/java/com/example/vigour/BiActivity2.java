@@ -1,6 +1,4 @@
-package com.example.yogademoapp;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.vigour;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -10,7 +8,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class ThirdActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.vigour.R;
+
+public class BiActivity2 extends AppCompatActivity {
 
     String buttonvalue;
     Button startBtn;
@@ -25,7 +27,7 @@ public class ThirdActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_third);
+        setContentView(R.layout.activity_bi2);
 
         Intent intent = getIntent();
         buttonvalue = intent.getStringExtra("value");
@@ -47,9 +49,7 @@ public class ThirdActivity extends AppCompatActivity {
             case 4:
                 setContentView(R.layout.back_4);
                 break;
-            case 5:
-                setContentView(R.layout.back_5);
-                break;
+
 
         }
         startBtn = findViewById(R.id.startbutton);
@@ -97,14 +97,14 @@ public class ThirdActivity extends AppCompatActivity {
             public void onFinish() {
                 int newvalue = Integer.valueOf(buttonvalue)+1;
                 if(newvalue<=7){
-                    Intent intent = new Intent(ThirdActivity.this, ThirdActivity.class);
+                    Intent intent = new Intent(BiActivity2.this, BiActivity2.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     intent.putExtra("value", String.valueOf(newvalue));
                     startActivity(intent);
                 }
                 else{
                     newvalue = 1;
-                    Intent intent = new Intent(ThirdActivity.this, ThirdActivity.class);
+                    Intent intent = new Intent(BiActivity2.this, BiActivity2.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     intent.putExtra("value", String.valueOf(newvalue));
                     startActivity(intent);

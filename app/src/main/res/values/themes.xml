@@ -2,17 +2,14 @@
     <!-- Base application theme. -->
     <style name="Theme.YogaDemoApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary" >@color/colorPrimary</item>
 
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- To change the popup menu and app text color  -->
+        <item name="android:textColor">@color/colorPrimaryDark</item>
 
-<!--         Secondary brand color.-->
-
-
-        <item name="colorSecondary">@color/colorPrimaryDark</item>
-        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
-
-<!--         Status bar color.-->
-        <item name="android:statusBarColor" tools:targetApi="21">?attr/colorPrimaryVariant</item>
+        <!-- To change the background of options menu-->
+        <item name="android:itemBackground">@color/colorAccent</item>
     </style>
 </resources>
 

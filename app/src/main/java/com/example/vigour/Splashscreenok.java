@@ -1,6 +1,4 @@
-package com.example.yogademoapp;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.vigour;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +7,10 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.vigour.R;
 
 public class Splashscreenok extends AppCompatActivity {
 

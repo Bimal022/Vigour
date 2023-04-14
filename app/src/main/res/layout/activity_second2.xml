@@ -6,7 +6,7 @@
     android:layout_height="fill_parent"
     android:background="#FFF"
     android:orientation="vertical"
-    tools:context="com.example.yogademoapp.SecondActivity">
+    tools:context="com.example.vigour.SecondActivity">
 
 
 

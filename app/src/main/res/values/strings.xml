@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Yoga Demo app</string>
+    <string name="app_name">Vigour</string>
 
 
     <string name="back1">    <p><b>Equipment required</b> -Lat Pulldown Machine, Lat Bar</p>
@@ -7,17 +7,25 @@
                              <p><b>Secondary muscles</b>:- Biceps\n\n</p>
                              <p><b>Starting position</b>:- Sitting, thighs under the padded parts, the bar grasped in pronation, hands more apart than shoulder width. Keep elbows pointed outwards and back straight. \n\n</p>
                              <p><b>Execution</b>:- Pull the bar at the back of the neck. Keep the contraction for a moment before slowly returning to the initial position. During the movement, do not let your elbows come forward. </p></string>
+
+
     <string name="back2">    <p><b>Equipment required</b> -Dumbbell, Bench</p>
                              <p><b>Main muscles</b>:- Back\n\n</p>
                              <p><b>Secondary muscles</b>:- Hind Deltoids, biceps\n\n</p>
                              <p><b>Starting position</b>:- Place your left knee and left hand on the bench with your chest parallel to the floor. Keep your right foot on the ground and grasp the dumbbell still on the ground in your right hand in a neutral grip. \n\n</p>
                              <p><b>Execution</b>:-Keeping your arm close to your body, lift the dumbbell as high as possible by raising your elbow and keeping your forearm perpendicular to the ground. Once your series is over, do the same with the other arm. </p></string>
     <string name="back3">    </string>
+
+
+
     <string name="back4">    <p><b>Equipment required</b> -T-Bar machine, plates</p>
                              <p><b>Main muscles</b>:- Back\n\n</p>
                              <p><b>Secondary muscles</b>:- Rear deltoids, biceps\n\n</p>
                              <p><b>Starting position</b>:- Use a T-Bar machine (or place a barbell in the corner of a room). Stand with feet either side of the bar, bend your knees, and bow forward so that your chest is directly over the plate on the barbell. Grab the handle in both hands. \n\n</p>
                              <p><b>Execution</b>:-Keeping your posture still, pull the handles so that the plate rises towards your chest. Pause just before it touches, and then slowly lower it back down. </p></string>
+
+
+
     <string name="back5">    <p><b>Equipment required</b> -Pull bar</p>
                              <p><b>Main muscles</b>:- Back\n\n</p>
                              <p><b>Secondary muscles</b>:- Biceps\n\n</p>
@@ -29,6 +37,8 @@
                              <p><b>Main muscles</b>:-Buttocks and thigh muscles\n\n</p>
                              <p><b>Starting position</b>:- Standing with legs hip-width apart, one dumbbell in each hand. \n\n</p>
                              <p><b>Execution</b>:- Keeping the bust straight, take a step forward and slowly descend until the forward thigh is parallel to the ground. Then return to the original position. Once you have completed your series, do the same with the other leg. </p></string>
+
+
     <string name="leg2">     <p><b>Equipment required</b> -Barbell</p>
                              <p><b>Main muscles</b>:-Thigh and buttock muscles \n\n</p>
                              <p><b>Starting position</b>:- Standing with the bar resting on your upper chest and deltoids. Grasp the bar with your hands for a good support. Keep your head straight \n\n</p>
@@ -39,42 +49,35 @@
                              <p><b>Starting position</b>:- Get down onto the mat. Position yourself on your hands and knees. Place your hands directly under your shoulders and your knees right under your hips. \n\n</p>
                              <p><b>Execution</b>:-While maintaining a neutral spine and bracing your core, extend one arm straight out in front of you and extend the opposite leg backwards until they’re parallel with the ground and you’ve created a straight line with your body. Keep your hips parallel to the ground. Hold this position briefly and then lower back to the starting position. Repeat with the opposite side.  </p></string>
     <string name="leg4">     <p><b>Equipment required</b> -Lever Stepper Machine</p>
-                             <p><b>Main muscles</b>:-Buttocks and thigh muscles \n\n</p>
-        <p><b>Secondary muscles</b>:-Glute Muscles \n\n</p></string>
+                             <p><b>Main muscles</b>:-Buttocks and thigh muscles \n\n</p><p><b>Secondary muscles</b>:-Glute Muscles \n\n</p></string>
+
+
     <string name="leg5">     <p><b>Equipment required</b> -Seated Calf Raise Machine</p>
                              <p><b>Main muscles</b>:- Calves\n\n</p>
                              <p><b>Starting position</b>:- Sitting on the machine with the front of the feet on the wedge and the lower thighs under the padded parts \n\n</p>
                              <p><b>Execution</b>:- While contracting the calves, raise your heels as high as possible. Stay in the high position for a moment, feeling the contraction well. Then slowly lower your heels by stretching your calves. </p></string>
+
     <string name="chest1">   <p><b>Equipment required</b> -Dumbbells, Bench</p>
                              <p><b>Main muscles</b>:- Chest\n\n</p>
                              <p><b>Secondary muscles</b>:-Front deltoids, triceps\n\n</p>
                              <p><b>Starting position</b>:- Lying on the bench, your feet flat on the floor, one dumbbell in each hand, pronation grip. Hold the dumbbells at your sides at chest height. Your forearms should be perpendicular to the ground. \n\n</p>
                              <p><b>Execution</b>:-By contracting your pectorals, push the load against upwards until your arms are almost extended, then return to the initial position.
+                                 During the entire movement: Keep your elbows on the outside to put maximum stress on your pectorals and minimum stress on your anterior deltoids and triceps.Keep your shoulders flat against the bench.  </p></string>
 
-During the entire movement:
-
-Keep your elbows on the outside to put maximum stress on your pectorals and minimum stress on your anterior deltoids and triceps.
-Keep your shoulders flat against the bench.  </p></string>
     <string name="chest2">   <p><b>Equipment required</b> -Dumbbells, Bench</p>
                              <p><b>Main muscles</b>:- chest\n\n</p>
                              <p><b>Secondary muscles</b>:-Front deltoids\n\n</p>
                              <p><b>Starting position</b>:-Lying on the bench, your feet flat on the floor, one dumbbell in each hand. Hold the weights in a neutral grip, arms outstretched above your chest.  \n\n</p>
                              <p><b>Execution</b>:- Slowly lower the dumbbells to the sides in an arc with your arms until you feel a stretch in your pectorals. Do not go below shoulder level. Then return to the original position, performing the same arc.
-
-During the whole movement:
-
-Keep your elbows pointed outward and slightly bent to reduce stress on the joint.
-Keep your shoulders flat against the bench. </p></string>
+                                 During the whole movement:Keep your elbows pointed outward and slightly bent to reduce stress on the joint.
+                                 Keep your shoulders flat against the bench. </p></string>
     <string name="chest3">   <p><b>Equipment required</b> -Curlbell, Bench</p>
                              <p><b>Main muscles</b>:-chest \n\n</p>
                              <p><b>Secondary muscles</b>:-Front deltoids, triceps\n\n</p>
                              <p><b>Starting position</b>:- Lying on the bench, your feet flat on the floor. Grasp the bar with a grip narrow than shoulder width. Your forearms should be perpendicular to the floor. \n\n</p>
                              <p><b>Execution</b>:- Unhook the bar and slowly lower it to the lower part of your chest. As you contract your pectorals, push the load upwards until your arms are almost straight.
-
-During the whole movement:
-
-Keep your elbows on the outside to put maximum stress on your chest and minimum stress on your anterior deltoids and triceps.
-Keep your shoulders flat against the bench. </p></string>
+                                 During the whole movement:Keep your elbows on the outside to put maximum stress on your chest and minimum stress on your anterior deltoids and triceps.
+                                 Keep your shoulders flat against the bench. </p></string>
     <string name="chest4">   <p><b>Main muscles</b>:-chest \n\n</p>
                              <p><b>Secondary muscles</b>:-Deltoids, Triceps, Biceps\n\n</p>
                              <p><b>Starting position</b>:-  Face down, one arm outstretched,  resting on the floor and aligned with your pectoral muscles. Legs stretched and face pointed towards the ground\n\n</p>
@@ -114,15 +117,19 @@ Keep your shoulders flat against the bench. </p></string>
                              <p><b>Secondary muscles</b>:-\n\n</p>
                              <p><b>Starting position</b>:- \n\n</p>
                              <p><b>Execution</b>:-  </p></string>
+
     <string name="biceps4">  <p><b>Equipment required</b> -Dumbbell, bench</p>
                              <p><b>Main muscles</b>:-Biceps\n\n</p>
                              <p><b>Starting position</b>:-Sitting on a bench, hold a dumbbell in your right hand, supine grip. With your chest slightly bent forward, rest your elbow on the inside of your right thigh, leaving your arm relaxed towards the ground \n\n</p>
                              <p><b>Execution</b>:- Slowly bend your forearm as you bring the dumbbell towards your right shoulder. Contract your biceps in the high position, then slowly return to the initial position. Once your series is completed, move to the other arm. </p></string>
-    <string name="shoulder1">    <p><b>Equipment required</b> -Dumbbells, bench</p>
+
+
+    <string name="shoulder1"><p><b>Equipment required</b> -Dumbbells, bench</p>
                              <p><b>Main muscles</b>:-Deltoids\n\n</p>
                              <p><b>Secondary muscles</b>:-Triceps\n\n</p>
                              <p><b>Starting position</b>:-Sitting on a bench with your back well supported against the backrest. Hold the dumbbells in your hands (pronation grip) a little above shoulder height. Your elbows are on the outside and your forearms are perpendicular to the ground. \n\n</p>
                              <p><b>Execution</b>:- Push the dumbbells upwards. Until your arms are fully extended. Then return to the original position </p></string>
+
     <string name="shoulder2"> <p><b>Equipment required</b> -Smith machine</p>
                              <p><b>Main muscles</b>:-Deltoids\n\n</p>
                              <p><b>Secondary muscles</b>:-Triceps\n\n</p>
@@ -143,11 +150,94 @@ Keep your shoulders flat against the bench. </p></string>
                              <p><b>Secondary muscles</b>:-Biceps and forearms\n\n</p>
                              <p><b>Starting position</b>:- Standing, holding the bar in front of you, pronation grip, hands shoulder-width apart.\n\n</p>
                              <p><b>Execution</b>:- Lift the bar vertically to chest height. Contract for a moment, then return to the starting position. During the whole movement, keep the bar close to the body and the elbows higher than the wrists. </p></string>
-    <string name="shoulder6">    <p><b>Equipment required</b> -</p>
+    <string name="shoulder6">   <p><b>Equipment required</b> -</p>
                              <p><b>Main muscles</b>:-\n\n</p>
                              <p><b>Secondary muscles</b>:-\n\n</p>
                              <p><b>Starting position</b>:- \n\n</p>
-                                                <p><b>Execution</b>:-  </p></string>
+        <p><b>Execution</b>:-  </p></string>
 
+
+
+
+
+
+
+    <string name="yoga1">   <p><strong>Also Known As</strong>: The accomplished pose, perfect pose</p>
+        <p><strong>Targets</strong>: Hips, groin muscles, lower back, spine</p>
+        <p><strong>Equipment Needed</strong>: Yoga mat</p><p><strong>Level</strong>: Beginner</p></string>
+
+
+
+
+
+    <string name="yoga2"><p><b>Also Known As</b>: Peacock Pose</p>
+        <p><b>Targets</b>: Forearm, wrists, and arms</p>
+        <p><b>Level</b>: Advanced</p>
+        <p><b>Benefits</b>: Balancing poses like Peacock Pose are beneficial for building core strength necessary for other advanced poses.
+            You will feel the stretch the deepest in your wrists and forearms, though your core will also be engaged.
+            As you balance your body on your hands, the extension of your legs will help release tension by opening up your back.</p></string>
+
+
+
+
+
+    <string name="yoga3"></string>
+
+
+
+
+
+    <string name="yoga4"><p><b>Also Known As</b>: Jump through</p>
+        <p><b>Targets</b>: Shoulders, triceps, forearms, abdominals and core</p>
+        <p><b>Level</b>: Advanced</p>
+        <p><b>Benefits</b>: Practiced frequently, the Ashtanga jump through will help you develop strength through your entire upper body,</p>
+            <p>particularly your shoulders and core.</p>
+            <p>In fact, it may help you to think of the jump through as an arm balance.</p>
+            <p>In the most advanced version of this transition,</p>
+            <p>you move from downward facing dog into a handstand before you slowly lower your legs into a standing or seated position.</p>
+            <p>As such, it requires a lot of abdominal strength to complete the move successfully.</p></string>
+
+
+
+
+
+    <string name="yoga8"><p><b>Also Known As</b>: Bow Pose</p>
+        <p><b>Targets</b>: Chest and back</p>
+        <p><b>Level</b>: Intermediate</p>
+        <p><b>Benefits</b>:Bow Pose can be used to open up the chest and stretch out the back,</p>
+            <p>which is especially beneficial for people who sit or stand for long periods of time.</p></string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="yoga10"><p><b>Also Known As</b>: Final Relaxation</p>
+        <p><b>Targets</b>: Relaxation</p>
+        <p><b>Level</b>: Beginner</p><p>
+            <b>Benefits</b>: Savasana allows your body and mind time to process what has happened during a yoga class,</p>
+            <p>helping you wind down and relax. For this reason it is most often practiced at the end of a yoga session.</p>
+            <p>It provides a necessary counterpoint to the effort you put forth during asana practice.</p>
+            <p>You may also practice Savasana at home before sleeping3 as a way to quiet your mind and get more restful sleep.</p></string>
 
 </resources>

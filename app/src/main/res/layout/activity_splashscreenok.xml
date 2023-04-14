@@ -30,7 +30,7 @@
         android:id="@+id/appname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Yoga App"
+        android:text="Vigour "
         android:textSize="35dp"
         android:textStyle="bold"
         android:textColor="#FFF"

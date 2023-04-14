@@ -1,8 +1,10 @@
-package com.example.yogademoapp;
+package com.example.vigour;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+import com.example.vigour.R;
 
 public class FoodActivity extends AppCompatActivity {
 

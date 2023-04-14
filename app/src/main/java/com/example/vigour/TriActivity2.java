@@ -1,6 +1,4 @@
-package com.example.yogademoapp;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.vigour;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -10,7 +8,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class ChestActivity2 extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+import com.example.vigour.R;
+
+public class TriActivity2 extends AppCompatActivity {
 
     String buttonvalue;
     Button startBtn;
@@ -25,7 +26,7 @@ public class ChestActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chest2);
+        setContentView(R.layout.activity_tri2);
 
         Intent intent = getIntent();
         buttonvalue = intent.getStringExtra("value");
@@ -35,19 +36,18 @@ public class ChestActivity2 extends AppCompatActivity {
         switch (intvalue){
 
             case 1:
-                setContentView(R.layout.chest_1);
+                setContentView(R.layout.tri_1);
                 break;
             case 2:
-                setContentView(R.layout.chest_2);
+                setContentView(R.layout.tri_2);
                 break;
 
             case 3:
-                setContentView(R.layout.chest_3);
+                setContentView(R.layout.tri_3);
                 break;
             case 4:
-                setContentView(R.layout.chest_4);
+                setContentView(R.layout.tri_4);
                 break;
-
 
         }
         startBtn = findViewById(R.id.startbutton);
@@ -95,14 +95,14 @@ public class ChestActivity2 extends AppCompatActivity {
             public void onFinish() {
                 int newvalue = Integer.valueOf(buttonvalue)+1;
                 if(newvalue<=7){
-                    Intent intent = new Intent(ChestActivity2.this, ChestActivity2.class);
+                    Intent intent = new Intent(TriActivity2.this, ThirdActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     intent.putExtra("value", String.valueOf(newvalue));
                     startActivity(intent);
                 }
                 else{
                     newvalue = 1;
-                    Intent intent = new Intent(ChestActivity2.this, ChestActivity2.class);
+                    Intent intent = new Intent(TriActivity2.this, ThirdActivity.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     intent.putExtra("value", String.valueOf(newvalue));
                     startActivity(intent);

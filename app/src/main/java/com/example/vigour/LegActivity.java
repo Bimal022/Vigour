@@ -1,29 +1,29 @@
-package com.example.yogademoapp;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
+package com.example.vigour;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-public class ShoulderActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
+import com.example.vigour.R;
+
+public class LegActivity extends AppCompatActivity {
 
     int[] newArray;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_shoulder);
+        setContentView(R.layout.activity_leg);
 
         Toolbar toolbar = findViewById(R.id.toolBar);
         setSupportActionBar(toolbar);
 
         newArray = new int[]{
-                R.id.pose1, R.id.pose2, R.id.pose3, R.id.pose4, R.id.pose5,
-                R.id.pose6, R.id.pose7, R.id.pose8, R.id.pose9, R.id.pose10,
-                R.id.pose11, R.id.pose12, R.id.pose13, R.id.pose14, R.id.pose15,
+                R.id.leg1, R.id.leg2, R.id.leg3, R.id.leg4, R.id.leg5,
         };
     }
 
@@ -34,7 +34,7 @@ public class ShoulderActivity extends AppCompatActivity {
             if(view.getId() == newArray[i]){
                 int value = i+1;
                 Log.i("FIRST", String.valueOf(value));
-                Intent intent = new Intent(ShoulderActivity.this, ShoulderActivity2.class);
+                Intent intent = new Intent(LegActivity.this, LegActivity2.class);
                 intent.putExtra("value", String.valueOf(value));
                 startActivity(intent);
             }

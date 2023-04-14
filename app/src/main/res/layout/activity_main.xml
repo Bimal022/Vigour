@@ -6,7 +6,7 @@
     android:layout_height="fill_parent"
     android:background="#22f1eaea"
     android:orientation="vertical"
-    tools:context="com.example.yogademoapp.MainActivity">
+    tools:context="com.example.vigour.MainActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolBar"
@@ -16,7 +16,7 @@
         android:gravity="end"
         android:textAlignment="textEnd"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:title="APP NAME"
+        app:title="@string/app_name"
         app:titleTextColor="#FFF" />
 
     <ScrollView

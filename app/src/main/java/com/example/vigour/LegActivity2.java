@@ -1,6 +1,4 @@
-package com.example.yogademoapp;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.vigour;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -10,7 +8,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class BackActivity2 extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+import com.example.vigour.R;
+
+public class LegActivity2 extends AppCompatActivity {
+
     String buttonvalue;
     Button startBtn;
     private CountDownTimer countDownTimer;
@@ -24,7 +26,7 @@ public class BackActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_back);
+        setContentView(R.layout.activity_leg2);
 
         Intent intent = getIntent();
         buttonvalue = intent.getStringExtra("value");
@@ -34,20 +36,20 @@ public class BackActivity2 extends AppCompatActivity {
         switch (intvalue){
 
             case 1:
-                setContentView(R.layout.back_1);
+                setContentView(R.layout.leg_1);
                 break;
             case 2:
-                setContentView(R.layout.back_2);
+                setContentView(R.layout.leg_2);
                 break;
 
             case 3:
-                setContentView(R.layout.back_3);
+                setContentView(R.layout.leg_3);
                 break;
             case 4:
-                setContentView(R.layout.back_4);
+                setContentView(R.layout.leg_4);
                 break;
             case 5:
-                setContentView(R.layout.back_5);
+                setContentView(R.layout.leg_5);
                 break;
 
 
@@ -97,14 +99,14 @@ public class BackActivity2 extends AppCompatActivity {
             public void onFinish() {
                 int newvalue = Integer.valueOf(buttonvalue)+1;
                 if(newvalue<=7){
-                    Intent intent = new Intent(BackActivity2.this, BackActivity2.class);
+                    Intent intent = new Intent(LegActivity2.this, LegActivity2.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     intent.putExtra("value", String.valueOf(newvalue));
                     startActivity(intent);
                 }
                 else{
                     newvalue = 1;
-                    Intent intent = new Intent(BackActivity2.this, BackActivity2.class);
+                    Intent intent = new Intent(LegActivity2.this, LegActivity2.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     intent.putExtra("value", String.valueOf(newvalue));
                     startActivity(intent);

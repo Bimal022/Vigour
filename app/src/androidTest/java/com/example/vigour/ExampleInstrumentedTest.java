@@ -1,4 +1,4 @@
-package com.example.yogademoapp;
+package com.example.vigour;
 
 import android.content.Context;
 
