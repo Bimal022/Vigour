@@ -17,13 +17,11 @@
     <string name="back3">    </string>
 
 
-
     <string name="back4">    <p><b>Equipment required</b> -T-Bar machine, plates</p>
                              <p><b>Main muscles</b>:- Back\n\n</p>
                              <p><b>Secondary muscles</b>:- Rear deltoids, biceps\n\n</p>
                              <p><b>Starting position</b>:- Use a T-Bar machine (or place a barbell in the corner of a room). Stand with feet either side of the bar, bend your knees, and bow forward so that your chest is directly over the plate on the barbell. Grab the handle in both hands. \n\n</p>
                              <p><b>Execution</b>:-Keeping your posture still, pull the handles so that the plate rises towards your chest. Pause just before it touches, and then slowly lower it back down. </p></string>
-
 
 
     <string name="back5">    <p><b>Equipment required</b> -Pull bar</p>
@@ -157,17 +155,9 @@
         <p><b>Execution</b>:-  </p></string>
 
 
-
-
-
-
-
     <string name="yoga1">   <p><strong>Also Known As</strong>: The accomplished pose, perfect pose</p>
         <p><strong>Targets</strong>: Hips, groin muscles, lower back, spine</p>
         <p><strong>Equipment Needed</strong>: Yoga mat</p><p><strong>Level</strong>: Beginner</p></string>
-
-
-
 
 
     <string name="yoga2"><p><b>Also Known As</b>: Peacock Pose</p>
@@ -178,13 +168,7 @@
             As you balance your body on your hands, the extension of your legs will help release tension by opening up your back.</p></string>
 
 
-
-
-
     <string name="yoga3"></string>
-
-
-
 
 
     <string name="yoga4"><p><b>Also Known As</b>: Jump through</p>
@@ -198,38 +182,11 @@
             <p>As such, it requires a lot of abdominal strength to complete the move successfully.</p></string>
 
 
-
-
-
     <string name="yoga8"><p><b>Also Known As</b>: Bow Pose</p>
         <p><b>Targets</b>: Chest and back</p>
         <p><b>Level</b>: Intermediate</p>
         <p><b>Benefits</b>:Bow Pose can be used to open up the chest and stretch out the back,</p>
             <p>which is especially beneficial for people who sit or stand for long periods of time.</p></string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <string name="yoga10"><p><b>Also Known As</b>: Final Relaxation</p>
