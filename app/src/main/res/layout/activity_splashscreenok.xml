@@ -11,26 +11,28 @@
     tools:context=".Splashscreenok">
 
 <!--  Logo k liye-->
+    <!--text k liye -->
     <ImageView
         android:id="@+id/appsplash"
         android:layout_width="135dp"
         android:layout_height="135dp"
-        android:src="@drawable/splash_icon"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginTop="300dp"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        />
-<!--text k liye -->
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:src="@drawable/splash_icon" />
+
     <TextView
         android:id="@+id/appname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Vigour "
+        android:text=""
         android:textSize="35dp"
         android:textStyle="bold"
         android:textColor="#FFF"
