@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,14 +16,31 @@ import com.example.vigour.R;
 
 public class MainActivity extends AppCompatActivity {
     Button button1, button2, button3, button4;
+    TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
 
-        Toolbar toolbar = findViewById(R.id.toolBar);
-        setSupportActionBar(toolbar);
+//        To add username from login activity to main activity
+        textView = findViewById(R.id.txtview);
+        Intent intent = getIntent();
+        String new_name = intent.getStringExtra(LoginActivity.EXTRA_NAME);
+        textView.setText(new_name);
+
+
+
+
+
+
+
+
+
+
+
+//        Toolbar toolbar = findViewById(R.id.toolbar);
+//        setSupportActionBar(toolbar);
 
 
         button1 = findViewById(R.id.startgym);

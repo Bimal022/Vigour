@@ -12,7 +12,7 @@ import android.widget.Toast;
 import com.google.android.material.button.MaterialButton;
 
 public class LoginActivity extends AppCompatActivity {
-
+    public static final String EXTRA_NAME = "name";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,29 +32,37 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(username.getText().toString().equals("Bimal022") && password.getText().toString().equals("heheboi")){
                     //correct
+                    String name = "Hey, "+username.getText().toString();
                     Toast.makeText(LoginActivity.this,"LOGIN SUCCESSFUL",Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    intent.putExtra(EXTRA_NAME, name);
                     startActivity(intent);
 
                 }
                 else if(username.getText().toString().equals("Prachi022") && password.getText().toString().equals("puchuu")){
                     //correct
+                    String name = "Hey, "+username.getText().toString();
                     Toast.makeText(LoginActivity.this,"LOGIN SUCCESSFUL",Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    intent.putExtra(EXTRA_NAME, name);
                     startActivity(intent);
 
                 }
                 else if(username.getText().toString().equals("Aditya") && password.getText().toString().equals("jaatbrand")){
                     //correct
+                    String name = "Hey, "+username.getText().toString();
                     Toast.makeText(LoginActivity.this,"LOGIN SUCCESSFUL",Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    intent.putExtra(EXTRA_NAME, name);
                     startActivity(intent);
 
                 }
                 else if(username.getText().toString().equals("Nikita") && password.getText().toString().equals("cutupanda")){
                     //correct
+                    String name = "Hey, "+username.getText().toString();
                     Toast.makeText(LoginActivity.this,"LOGIN SUCCESSFUL",Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    intent.putExtra(EXTRA_NAME, name);
                     startActivity(intent);
 
                 }

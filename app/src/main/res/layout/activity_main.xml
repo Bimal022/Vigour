@@ -8,16 +8,22 @@
     android:orientation="vertical"
     tools:context="com.example.vigour.MainActivity">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolBar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="@color/colorPrimaryDark"
-        android:gravity="end"
-        android:textAlignment="textEnd"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:title="@string/app_name"
-        app:titleTextColor="#FFF" />
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolBar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?attr/actionBarSize"-->
+<!--        android:background="@color/colorPrimaryDark"-->
+<!--        android:gravity="end"-->
+<!--        android:textAlignment="textEnd"-->
+<!--        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+<!--        app:titleTextColor="#FFF" />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/txtview">
+
+    </TextView>
 
     <ScrollView
         android:layout_width="fill_parent"
@@ -29,9 +35,6 @@
             android:layout_height="fill_parent"
             android:layout_marginTop="10dp"
             android:orientation="vertical">
-
-
-
             <!--For Adding different sections in app copy below linearLayout-->
 
             <!--Niche wala layout GYM EXERSISE k liye-->
