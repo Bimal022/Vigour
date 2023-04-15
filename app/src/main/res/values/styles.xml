@@ -1,4 +1,4 @@
-<!--<?xml version="1.0" encoding="utf-8"?>-->
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 <!---Base application theme. -->
 <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -9,3 +9,48 @@
     <item name="colorAccent">@color/colorAccent</item>
 </style>
 </resources>
+
+
+<!--<resources>-->
+    <!-- Light application theme. -->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--        <item name="background_color">@color/backgroundColor</item>-->
+<!--        &lt;!&ndash;        Our app's background colour when light mode is on == white&ndash;&gt;-->
+<!--        <item name="text_color">@color/textColor</item>-->
+<!--        &lt;!&ndash;        Text color is black&ndash;&gt;-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; dark application theme. &ndash;&gt;-->
+<!--    <style name="darkTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--        <item name="background_color">@color/backgroundColor</item>-->
+<!--        &lt;!&ndash;     Our app's background changes to black when dark mode is activated &ndash;&gt;-->
+<!--        <item name="text_color">@color/textColor</item>-->
+<!--        &lt;!&ndash;     text and button color change to white to contrast with the app's background&ndash;&gt;-->
+<!--    </style>-->
+
+    <!-- Primary brand color. -->
+<!--<resources>-->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoDarkActionBar">-->
+<!--    <item name="colorPrimary">@color/deepblue</item>-->
+<!--    <item name="colorPrimaryVariant">@color/deepblue</item>-->
+<!--    <item name="colorOnPrimary">@color/white</item>-->
+<!--    &lt;!&ndash; Secondary brand color. &ndash;&gt;-->
+<!--    <item name="colorSecondary">@color/deepblue</item>-->
+<!--    <item name="colorSecondaryVariant">@color/deepblue</item>-->
+<!--    <item name="colorOnSecondary">@color/black</item>-->
+<!--    &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--</style>-->
+<!--<style name="Theme.AppCompate.NoActionBar">-->
+<!--<item name="windowActionBar">false</item>-->
+<!--<item name="windowNoTitle">true</item>-->
+<!--</style>-->
+
+
+<!--    </resources>-->

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#22f1eaea"
+    android:background="@color/backgroundColorlight"
     android:orientation="vertical"
     tools:context="com.example.vigour.MainActivity">
 
@@ -21,7 +21,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="25sp"
-        android:id="@+id/txtview">
+        android:id="@+id/txtview"
+        android:fontFamily="@font/sangbleu">
 
     </TextView>
 
@@ -43,15 +44,14 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10.0dp"
                 android:layout_marginTop="15.0dp"
-                android:background="@drawable/backgroundcrop"
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:onClick="gymexersice"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
+                    android:onClick="gymexersice"
                     android:orientation="horizontal"
 
 
@@ -79,7 +79,7 @@
                             android:padding="5.0dp"
                             android:text="Gym Exersises"
                             android:textSize="30.0sp"
-                            android:textStyle="bold"/>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -125,7 +125,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10.0dp"
-                    android:background="@drawable/btn"
+                    android:backgroundTint="#3CEAE6"
                     android:text="Get Started"
                     android:textAllCaps="true"
                     android:textColor="#FFF" />
@@ -139,15 +139,14 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10.0dp"
                 android:layout_marginTop="15.0dp"
-                android:background="@drawable/backgroundcrop"
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:onClick="yogaexersice"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
+                    android:onClick="yogaexersice"
 
                     android:orientation="horizontal"
 
@@ -222,13 +221,12 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10.0dp"
-                    android:background="@drawable/btn"
+                    android:backgroundTint="#3CEAE6"
                     android:text="Get Started"
                     android:textAllCaps="true"
                     android:textColor="#FFF" />
 
             </LinearLayout>
-
 
 
             <!--Niche wala layout MEDITATION  k liye-->
@@ -237,15 +235,14 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10.0dp"
                 android:layout_marginTop="15.0dp"
-                android:background="@drawable/backgroundcrop"
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:onClick="meditation"
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
                     android:layout_gravity="center"
                     android:gravity="center"
+                    android:onClick="meditation"
                     android:orientation="horizontal"
 
 
@@ -273,7 +270,7 @@
                             android:padding="5.0dp"
                             android:text="Meditation"
                             android:textSize="30.0sp"
-                            android:textStyle="bold"/>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -327,17 +324,15 @@
             </LinearLayout>
 
 
-
             <!--Niche wala layout NUTRIENTS  k liye-->
             <LinearLayout
-                android:onClick="food"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10.0dp"
                 android:layout_marginTop="15.0dp"
-                android:background="@drawable/backgroundcrop"
-                android:orientation="vertical"
-                >
+                android:onClick="food"
+                android:orientation="vertical">
+
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="150.0dp"
@@ -352,7 +347,7 @@
                         android:orientation="vertical"
 
                         >
-                        
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -361,8 +356,7 @@
                             android:text="Nutrition or tips"
                             android:textColor="#ff000000"
                             android:textSize="20.0dp"
-                            android:textStyle="bold"
-                            />
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -373,27 +367,28 @@
 
                             />
 
-                </LinearLayout>
-                    
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2.0"
+                    </LinearLayout>
 
-                    >
-                    <ImageView
+                    <LinearLayout
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/food"/>
+                        android:layout_weight="2.0"
 
-                </LinearLayout>
+                        >
 
-                
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/food" />
+
+                    </LinearLayout>
+
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.0">
+
                         <ImageView
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
@@ -409,19 +404,17 @@
             </LinearLayout>
 
 
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-            >
+                android:orientation="vertical">
+
                 <FrameLayout
                     android:id="@+id/fl_Adplaceholder"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    />
+                    android:layout_height="wrap_content" />
             </LinearLayout>
-            
+
 
         </LinearLayout>
     </ScrollView>
