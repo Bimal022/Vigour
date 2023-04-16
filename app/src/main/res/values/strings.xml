@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Vigour</string>
 
-
+<string name="reps">4SETS X 10REPS</string>
     <string name="back1">    <p><b>Equipment required</b> -Lat Pulldown Machine, Lat Bar</p>
                              <p><b>Main muscles</b>:- Back\n\n</p>
                              <p><b>Secondary muscles</b>:- Biceps\n\n</p>
