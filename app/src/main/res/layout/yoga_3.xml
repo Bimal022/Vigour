@@ -55,7 +55,7 @@
                 android:textAlignment="center"
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="50dp"
-                android:text="MARICHYASANA"
+                android:text="MARICHYASAN"
                 android:textColor="#686060"
                 android:textSize="25dp"
                 android:padding="7dp"
