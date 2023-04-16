@@ -8,23 +8,23 @@
     android:orientation="vertical"
     tools:context="com.example.vigour.MainActivity">
 
-<!--    <androidx.appcompat.widget.Toolbar-->
-<!--        android:id="@+id/toolBar"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="?attr/actionBarSize"-->
-<!--        android:background="@color/colorPrimaryDark"-->
-<!--        android:gravity="end"-->
-<!--        android:textAlignment="textEnd"-->
-<!--        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
-<!--        app:titleTextColor="#FFF" />-->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="25sp"
-        android:id="@+id/txtview"
-        android:fontFamily="@font/sangbleu">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="end"
+        android:textAlignment="textEnd"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:titleTextColor="#FFF" />
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="25sp"-->
+<!--        android:id="@+id/txtview"-->
+<!--        android:fontFamily="@font/sangbleu">-->
 
-    </TextView>
+<!--    </TextView>-->
 
     <ScrollView
         android:layout_width="fill_parent"
@@ -75,10 +75,11 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="serif"
+                            android:fontFamily="monospace"
                             android:padding="5.0dp"
-                            android:text="Gym Exersises"
-                            android:textSize="30.0sp"
+                            android:text="Gym Exerscise"
+                            android:textColor="#ff000000"
+                            android:textSize="20.0dp"
                             android:textStyle="bold" />
 
                         <TextView
@@ -125,7 +126,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10.0dp"
-                    android:backgroundTint="#3CEAE6"
+                    android:background="@drawable/btn"
                     android:text="Get Started"
                     android:textAllCaps="true"
                     android:textColor="#FFF" />
@@ -171,10 +172,11 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="serif"
+                            android:fontFamily="monospace"
                             android:padding="5.0dp"
-                            android:text="Yoga Aasans"
-                            android:textSize="30.0sp"
+                            android:text="Yoga"
+                            android:textColor="#ff000000"
+                            android:textSize="20.0dp"
                             android:textStyle="bold" />
 
                         <TextView
@@ -221,7 +223,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10.0dp"
-                    android:backgroundTint="#3CEAE6"
+                    android:background="@drawable/btn"
                     android:text="Get Started"
                     android:textAllCaps="true"
                     android:textColor="#FFF" />
@@ -266,11 +268,12 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="serif"
+                            android:fontFamily="monospace"
                             android:padding="5.0dp"
                             android:text="Meditation"
-                            android:textSize="30.0sp"
-                            android:textStyle="bold" />
+                            android:textColor="#ff000000"
+                            android:textSize="20.0dp"
+                            android:textStyle="bold"/>
 
                         <TextView
                             android:layout_width="wrap_content"

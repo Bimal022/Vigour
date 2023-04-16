@@ -8,7 +8,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -24,23 +23,14 @@ public class MainActivity extends AppCompatActivity {
 
 
 //        To add username from login activity to main activity
-        textView = findViewById(R.id.txtview);
-        Intent intent = getIntent();
-        String new_name = intent.getStringExtra(LoginActivity.EXTRA_NAME);
-        textView.setText(new_name);
+//        textView = findViewById(R.id.toolBar);
+//        Intent intent = getIntent();
+//        String new_name = intent.getStringExtra(LoginActivity.EXTRA_NAME);
+//        textView.setText(new_name);
 
 
-
-
-
-
-
-
-
-
-
-//        Toolbar toolbar = findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
+        Toolbar toolbar = findViewById(R.id.toolBar);
+        setSupportActionBar(toolbar);
 
 
         button1 = findViewById(R.id.startgym);
@@ -89,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
         if(id == R.id.id_privacy){
 
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(""));
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://vigourpockettrainer.blogspot.com/2023/04/privacy-policy-hack-smashers-built.html"));
             startActivity(intent);
 
             return true;
@@ -98,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if(id == R.id.id_term){
 
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(""));
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://vigourpockettrainer.blogspot.com/2023/04/vigour-terms-and-conditions.html"));
             startActivity(intent);
             return true;
         }

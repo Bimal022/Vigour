@@ -37,17 +37,17 @@ public class BiActivity2 extends AppCompatActivity {
         switch (intvalue){
 
             case 1:
-                setContentView(R.layout.back_1);
+                setContentView(R.layout.bi_1);
                 break;
             case 2:
-                setContentView(R.layout.back_2);
+                setContentView(R.layout.bi_2);
                 break;
 
             case 3:
-                setContentView(R.layout.back_3);
+                setContentView(R.layout.bi_3);
                 break;
             case 4:
-                setContentView(R.layout.back_4);
+                setContentView(R.layout.bi_4);
                 break;
 
 
