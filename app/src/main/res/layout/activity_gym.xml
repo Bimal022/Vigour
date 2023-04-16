@@ -98,7 +98,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_1"
+                                android:src="@drawable/gym1"
 
                                 />
 
@@ -186,7 +186,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_1"
+                                android:src="@drawable/gym2"
 
                                 />
 
@@ -273,7 +273,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_1"
+                                android:src="@drawable/gym3"
 
                                 />
 
@@ -361,7 +361,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_1"
+                                android:src="@drawable/gym4"
 
                                 />
 
@@ -447,7 +447,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_1"
+                                android:src="@drawable/gym5"
 
                                 />
 
@@ -536,7 +536,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_1"
+                                android:src="@drawable/gym6"
 
                                 />
 
