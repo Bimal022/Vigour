@@ -72,13 +72,13 @@
 
                             >
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Repeate 2 Time"
-                                android:textStyle="bold"
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="Repeate 2 Time"-->
+<!--                                android:textStyle="bold"-->
 
-                                />
+<!--                                />-->
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -95,7 +95,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="01:00 MIN"
+                                android:text="@string/reps"
                                 android:textColor="#ffff5722"
                                 android:textStyle="bold"
 
@@ -184,17 +184,17 @@
 
                                 />
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Repeate 2 Time"
-                                android:textStyle="bold"
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="@string/reps"-->
+<!--                                android:textStyle="bold"-->
 
-                                />
+<!--                                />-->
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="01:00 MIN"
+                                android:text="@string/reps"
                                 android:textColor="#ffff5722"
                                 android:textStyle="bold"
 
@@ -284,17 +284,17 @@
 
                                 />
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Repeate 2 Time"
-                                android:textStyle="bold"
+<!--                            <TextView-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="Repeate 2 Time"-->
+<!--                                android:textStyle="bold"-->
 
-                                />
+<!--                                />-->
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="01:00 MIN"
+                                android:text="@string/reps"
                                 android:textColor="#ffff5722"
                                 android:textStyle="bold"
 
@@ -393,7 +393,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="01:00 MIN"
+                                android:text="@string/reps"
                                 android:textColor="#ffff5722"
                                 android:textStyle="bold"
 

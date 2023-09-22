@@ -12,21 +12,21 @@
 
 <!--  Logo k liye-->
     <!--text k liye -->
-    <ImageView
-        android:id="@+id/appsplash"
-        android:layout_width="135dp"
-        android:layout_height="135dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="115dp"
-        android:layout_marginLeft="115dp"
-        android:layout_marginTop="444dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginRight="85dp"
-        android:src="@drawable/splash_icon" />
+<!--    <ImageView-->
+<!--        android:id="@+id/appsplash"-->
+<!--        android:layout_width="135dp"-->
+<!--        android:layout_height="135dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginStart="115dp"-->
+<!--        android:layout_marginLeft="115dp"-->
+<!--        android:layout_marginTop="444dp"-->
+<!--        android:layout_marginEnd="85dp"-->
+<!--        android:layout_marginRight="85dp"-->
+<!--        android:src="@drawable/splash_icon" />-->
 
     <TextView
         android:id="@+id/appname"
