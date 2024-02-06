@@ -10,32 +10,28 @@ Vigour is a comprehensive fitness app designed to cater to all aspects of your p
 
 - **Guided Meditations:** Find guided meditations to help you unwind and destress. Whether you want to reduce anxiety, improve sleep, or increase focus and productivity, there's a meditation for you.
 
-- **User Authentication:** Utilizes Firebase and AMD instance for seamless sign-in authentication. Data of registered users is stored securely for login purposes.
+- **User Authentication:** Utilizes Firebase for seamless sign-in authentication and profile management. User data is securely stored and managed on the Firebase backend.
 
 ## Getting Started 🏃‍♀️
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/yourusername/vigour-fitness-app.git
+    git clone https://github.com/Bimal022/vigour-fitness-app.git
     ```
 
 2. **Install Dependencies:**
-    ```bash
-    npm install
-    ```
+    - Open the project in Android Studio.
+    - Install any required dependencies mentioned in the project's Gradle files. Ensure that you have the necessary Firebase dependencies configured in your `build.gradle` files.
 
 3. **Run the App:**
-    ```bash
-    npm start
-    ```
+    - Build and run the app on an Android emulator or physical device using Android Studio.
 
-4. **Access the App:** Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to access the Vigour Fitness App.
+4. **Access the App:** Once the app is running, navigate through the app's interface to access gym workouts, yoga practices, and guided meditations.
 
 ## Technologies Used 💻
 
-- React.js
-- Firebase Authentication
-- AMD Instance
+- Android Studio (Java and XML)
+- Firebase Authentication and Realtime Database
 
 ## Team 👥
 
